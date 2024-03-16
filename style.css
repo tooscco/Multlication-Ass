@@ -1,0 +1,16 @@
+.display-div{
+    text-align: -webkit-center !important;
+    /* text-align: center !important; */
+}
+
+table{
+    margin-top: 20px;
+ border: 2px solid red;
+ /* border-collapse: collapse !important; */
+}
+
+tr, td{
+    margin: 2px !important;
+    padding: 2px;
+    border: 1px solid red !important;
+}
