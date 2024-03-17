@@ -9,24 +9,33 @@
 </head>
 <body>
 
-    <div class="text-center">
-        <label for="">Columns</label>
+    <div class="text-center first-fir-div">
+        <h3>Arithmetic Tables</h3>
+        <div class="d-flex">
+        <div class="first-div">
+        <label for="" class="fir-div-col">Columns</label>
         <form class="form-floating">
-            <input type="number" class="form-control" id="column" id="floatingInputValue" placeholder="name@example.com" value="">
-            <label for="floatingInputValue">Input with value</label>
+            <input type="number" class="form-control" id="column" id="floatingInputValue" placeholder="Input Number" value="">
+            <label for="floatingInputValue" class="sec-div-label">Input Number</label>
           </form>
-    <label for="">Rows</label>
+        </div>
+        <div class="sec-div">
+    <label for="" class="sec-div-row">Rows</label>
     <form class="form-floating">
-        <input type="number" class="form-control" id="row" id="floatingInputValue" placeholder="name@example.com" value="">
-        <label for="floatingInputValue">Input with value</label>
+        <input type="number" class="form-control" id="row" id="floatingInputValue" placeholder="Input Number" value="">
+        <label for="floatingInputValue" class="sec-div-label">Input Number</label>
       </form>
-    <button onclick="addition()">Add</button>
-    <button onclick="subtract()">Subtract</button>
-    <button onclick="divide()">Divide</button>
-    <button onclick="multiply()">multiply</button>
-    <button onclick="click()" id="pleaseshowme" class="display-div">showtable</button>
+        </div>
+        </div>
+    <button class="div-btn" onclick="addition()">Add</button>
+    <button class="div-btn" onclick="subtract()">Subtract</button>
+    <button class="div-btn" onclick="divide()">Divide</button>
+    <button class="div-btn" onclick="multiply()">multiply</button>
+    <br>
+    <button class="div-btn1" onclick="click()" id="pleaseshowme" class="display-div">Show Multiplication Table</button>
+    <div id="display" class="display-div d-none"></div>
     </div>
-<div id="display" class="display-div d-none"></div>
+
 
     <script src="script.js"></script>
 </body>
