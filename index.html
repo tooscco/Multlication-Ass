@@ -10,10 +10,16 @@
 <body>
 
     <div class="text-center">
-        <label for="">col</label>
-    <input type="number" name="number" id="column">
-    <label for="">row</label>
-    <input type="number" name="number" id="row">
+        <label for="">Columns</label>
+        <form class="form-floating">
+            <input type="number" class="form-control" id="column" id="floatingInputValue" placeholder="name@example.com" value="">
+            <label for="floatingInputValue">Input with value</label>
+          </form>
+    <label for="">Rows</label>
+    <form class="form-floating">
+        <input type="number" class="form-control" id="row" id="floatingInputValue" placeholder="name@example.com" value="">
+        <label for="floatingInputValue">Input with value</label>
+      </form>
     <button onclick="addition()">Add</button>
     <button onclick="subtract()">Subtract</button>
     <button onclick="divide()">Divide</button>

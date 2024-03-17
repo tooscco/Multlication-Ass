@@ -14,3 +14,18 @@ tr, td{
     padding: 2px;
     border: 1px solid red !important;
 }
+
+.form-floating{
+    width: 30% !important;
+    margin: auto !important;
+    /* border: 2px solid red !important; */
+    /* align-items: center !important; */
+    /* text-align: center !important; */
+    /* background: none !important; */
+    /* border: none !important; */
+    overflow: hidden !important;
+}
+
+.form-control{
+    overflow: hidden !important;
+}
